@@ -1,0 +1,43 @@
+.portfolio .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project {
+    background: #f0f0f0; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+  }
+  
+  .project img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .project a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #333; 
+    text-decoration: none; 
+  }
+  
+  .project a:hover {
+    background-color: #eee; 
+  }
+
+  @media (min-width: 600px) {
+    .portfolio .projects {
+      grid-template-columns: repeat(2, 1fr); /* Switch to two columns on wider screens */
+    }
+  }
+
+  .project h3 {
+    color: #333; 
+    font-weight: bold; 
+    display: inline-block; 
+    padding: 5px 10px; 
+  }
