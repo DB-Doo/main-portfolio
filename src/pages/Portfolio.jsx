@@ -1,6 +1,4 @@
 import React from 'react';
-import Project from '../components/project';
-
 
 const projects = [
   {
@@ -19,6 +17,15 @@ const projects = [
 ];
 
 function Portfolio() {
+  const Project = ({ title, imageUrl, deployedUrl, githubUrl }) => (
+    <div className="project">
+      <img src={imageUrl} alt={title} />
+      <h3>{title}</h3>
+      <a href={deployedUrl} target="_blank" rel="noopener noreferrer">Live Demo</a>
+      <a href={githubUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+    </div>
+  );
+
   return (
     <div className="portfolio">
       <h1>Portfolio</h1>
