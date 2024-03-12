@@ -2,12 +2,14 @@ import React from 'react';
 
 const projects = [
   {
+    id: 'project1', 
     title: 'Project 1',
     imageUrl: '/path-to-image-1.jpg',
     deployedUrl: 'https://example.com/project-1',
     githubUrl: 'https://github.com/yourusername/project-1',
   },
   {
+    id: 'project2', 
     title: 'Project 2',
     imageUrl: '/path-to-image-2.jpg',
     deployedUrl: 'https://example.com/project-2',
@@ -30,9 +32,9 @@ function Portfolio() {
     <div className="portfolio">
       <h1>Portfolio</h1>
       <div className="projects">
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <Project
-            key={index}
+            key={project.id}
             title={project.title}
             imageUrl={project.imageUrl}
             deployedUrl={project.deployedUrl}
