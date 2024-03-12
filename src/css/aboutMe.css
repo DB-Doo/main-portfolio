@@ -1,0 +1,4 @@
+.about-me-photo {
+    width: 200px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+  }

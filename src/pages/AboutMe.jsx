@@ -1,14 +1,15 @@
 import React from 'react';
+import Portrait from '../assets/me.jpg';
+import '../css/aboutMe.css';
 
 function AboutMe() {
   return (
     <div className="about-me">
       <h1>About Me</h1>
-      <img src="path-to-your-image.jpg" alt="Your Name" className="about-me-photo" />
+      <img src={Portrait} alt="Dan Brandt" className="about-me-photo" />
       <p>
-        Placeholder
         Hi, I'm Dan, a web developer with a passion for building beautiful and functional web applications. 
-        I have a background in [my Background] and have worked on [Types of Projects I've Worked On]. 
+        I have a background in Graphic Design and Sales and have worked on various projects including website redesigns, e-commerce platforms, and promotional material creation. 
         I'm constantly learning new technologies and best practices to improve my skills and create better experiences for users.
       </p>
     </div>

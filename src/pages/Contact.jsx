@@ -55,7 +55,7 @@ function Contact() {
   return (
     <div className="background">
       <div className="container text-center m-5 p-5">
-        <h1>Hello! I'd love to hear from you!</h1>
+        <h1>Hello! Let's chat</h1>
         <form className="form container text-center p-5" onSubmit={handleFormSubmit}>
           <input
             value={name}
