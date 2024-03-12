@@ -2,7 +2,7 @@
 
 ## Description
 
-Dan Brandt's Portfolio, a single-page application (SPA) developed using React and deployed on Netlify, which showcases my web development projects and highlights my skills in building responsive, user-friendly web applications.
+My Portfolio, a single-page application (SPA) developed using React and deployed on Netlify, which showcases my web development projects and highlights my skills,
 
 ## Table of Contents
 
