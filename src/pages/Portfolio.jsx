@@ -39,7 +39,7 @@ const projects = [
   },
   {
     id: 'project5', 
-    title: 'Simple Calandar',
+    title: 'Simple Calendar',
     imageUrl: simpleCalendarImage,
     deployedUrl: 'https://example.com/project-2',
     githubUrl: 'https://github.com/DB-Doo/simple-calendar',
